@@ -6,6 +6,56 @@ body .body-inner {
   padding: 0;
   margin: 0;
 }
+
+/* ================================================================================================= */
+
+ .slide-nav {
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 200px;
+ }
+
+ .f-r {
+    text-align: right; 
+    color: #fff;
+     font-weight: 600;
+ }
+
+ .btn-quote {
+    text-align: right;
+     padding: 10px; 
+     color: rgb(17, 193, 224); 
+     font-weight: 500;
+     
+ }
+
+ .btn-quote button {
+    margin-top: 10px;
+     font-size: 18px; 
+     padding: 10px;
+ }
+
+
+ .block-quote {
+    float: left;
+ }
+
+ /* .slide-nav p {
+    color: #fff !important;
+    /* font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 200px; */
+  */
+
+  
+
+ /* ================================================================================================= */
+
 body .container-wide {
   width: 100%;
   margin: 0 auto;
@@ -1371,6 +1421,9 @@ section.dark,
   position: fixed;
   margin: 0 auto;
   width: 100%;
+  background: rgb(9,9,69);
+  background: linear-gradient(0deg, rgba(9,9,69,1) 0%, rgba(135,135,237,1) 100%);
+  
 }
 #header.header-always-fixed .header-inner,
 #header.header-always-fixed #header-wrap {
@@ -1429,6 +1482,11 @@ section.dark,
 #header.dark[data-transparent="true"]:not(.sticky-active) #header-wrap {
     background: rgb(9,9,69);
     background: linear-gradient(0deg, rgba(9,9,69,1) 0%, rgba(135,135,237,1) 100%);
+}
+
+.top-header {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(165,208,241,1) 100%);
 }
 @media (min-width: 1200px) {
   body.boxed #header .header-inner {
@@ -14255,7 +14313,8 @@ div.icon-box:before {
 }
 .inspiro-slider.dots-creative .flickity-page-dots .dot:after,
 .carousel.dots-creative .flickity-page-dots .dot:after {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
+  color: black;
   box-shadow: none;
 }
 .inspiro-slider.dots-creative .flickity-page-dots .dot:hover,
