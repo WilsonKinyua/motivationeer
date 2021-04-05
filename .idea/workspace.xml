@@ -3,21 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="512a6478-455a-4c26-b039-9b237224a4d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-me/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-me/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/business-coaching/feed/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/business-coaching/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/one-to-one/feed/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/one-to-one/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/weight-management/feed/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/weight-management/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coaching-services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coaching-services/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/feed/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faqs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/faqs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get-in-touch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/get-in-touch/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/the-zone-club/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/the-zone-club/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/what-is-coaching/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/what-is-coaching/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +13,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1qCLycAMbavnVPNX4koPNX2eACN" />
   <component name="ProjectViewState">
@@ -37,6 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -50,7 +46,8 @@
       <updated>1616578880893</updated>
       <workItem from="1616578882310" duration="3927000" />
       <workItem from="1616681193010" duration="6131000" />
-      <workItem from="1616754903683" duration="1565000" />
+      <workItem from="1616754903683" duration="1707000" />
+      <workItem from="1617637544946" duration="2307000" />
     </task>
     <servers />
   </component>
@@ -67,5 +64,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
