@@ -26,7 +26,7 @@
         padding: 0 !important;
       }
     </style>
-    <link
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/636df3492033aa303f776249b/3bcf7231fbc9f337899473545.js");</script>    <link
       rel="stylesheet"
       id="et-gf-open-sans-css"
       href="http://fonts.googleapis.com/css?family=Open+Sans:400,700"
@@ -1464,9 +1464,42 @@
         <!-- #main-footer -->
       </div>
       <!-- #et-main-area -->
+
     </div>
     <!-- #page-container -->
+    <div class="et_bloom_popup et_bloom_optin et_bloom_resize et_bloom_optin_1 et_bloom_auto_popup" data-delay="1">
+      <div class="et_bloom_form_container et_bloom_popup_container et_bloom_form_bottom with_edge carrot_edge et_bloom_rounded et_bloom_form_text_dark et_bloom_animation_fadein">
 
+        <div class="et_bloom_form_container_wrapper clearfix">
+          <div class="et_bloom_header_outer">
+            <div class="et_bloom_form_header split et_bloom_header_text_dark">
+              <img width="92" height="92" src="http://www.insight-coaching.co.uk/wp-content/uploads/2016/06/Bulb_Icon.gif" class="et_bloom_hide_mobile et_bloom_image_no_animation et_bloom_image" alt="Bulb_Icon" />
+              <div class="et_bloom_form_text">
+                <h2>Subscribe To Our Newsletter</h2><p>Hello, Let's stay in touch!</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="et_bloom_form_content et_bloom_1_field et_bloom_bottom_inline">
+            <form method="post" class="clearfix" id="subform" action="email.php">
+              <p class="et_bloom_popup_input et_bloom_subscribe_email">
+                <input name="name" placeholder="Name"> <br> <input name="email" placeholder="Email">
+              </p>
+              <button type="submit" class="et_bloom_submit_subscription"  id="submitBtn">
+                <span class="et_bloom_subscribe_loader"></span>
+                <span class="et_bloom_button_text et_bloom_button_text_color_light">SUBSCRIBE!</span>
+              </button>
+            </form>
+            <div class="et_bloom_success_container">
+              <span class="et_bloom_success_checkmark"></span>
+            </div>
+            <div id="feedback"></div>
+
+          </div>
+        </div>
+        <span class="et_bloom_close_button"></span>
+      </div>
+    </div>
     <div style="display: none"></div>
     <style type="text/css" id="et-builder-advanced-style">
       .et_pb_section_0.et_pb_section {
@@ -1768,5 +1801,28 @@
       async
       defer
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+        $( "#submitBtn" ).click(function( event ) {
+          //values
+          var name=document.getElementById('name').value;
+          var email=document.getElementById('email').value;
+          alert('ddd');
+          var dataString = {"name": name, "email":email}
+          $.ajax({
+            type:"post",
+            url:"email.php",
+            data: dataString,
+            success: function(html) {
+              $('#feedback').html(html);
+            }
+
+          });
+
+          event.preventDefault();
+        });
+      });
+    </script>
   </body>
   </html>

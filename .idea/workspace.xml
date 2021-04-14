@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512a6478-455a-4c26-b039-9b237224a4d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/email.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1qCLycAMbavnVPNX4koPNX2eACN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,6 +53,8 @@
       <workItem from="1617637544946" duration="2957000" />
       <workItem from="1617783791428" duration="984000" />
       <workItem from="1618088038193" duration="1934000" />
+      <workItem from="1618314656887" duration="5380000" />
+      <workItem from="1618390672115" duration="299000" />
     </task>
     <servers />
   </component>
